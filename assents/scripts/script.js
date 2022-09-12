@@ -14,4 +14,6 @@ function escolherPalavraSecreta() {
 function iniciarJogo() {
     document.getElementById('div-desaparece').style.display = "none";
     escolherPalavraSecreta();
+    desenharCanvas();
+    desenharLinhas();
 }
